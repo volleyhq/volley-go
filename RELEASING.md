@@ -39,7 +39,7 @@ git push origin v1.0.0
 If this is a GitHub repository, the tag will make the release available via:
 
 ```bash
-go get github.com/volleyhooks/volley-go@v1.0.0
+go get github.com/volleyhq/volley-go@v1.0.0
 ```
 
 ### 3. Verify Release
@@ -49,7 +49,7 @@ Test that the release can be installed:
 ```bash
 # In a clean directory
 go mod init test-release
-go get github.com/volleyhooks/volley-go@v1.0.0
+go get github.com/volleyhq/volley-go@v1.0.0
 go build
 ```
 
@@ -82,13 +82,13 @@ git push origin v1.0.0
 git push origin main  # or master
 
 # 4. Verify
-go get github.com/volleyhooks/volley-go@v1.0.0
+go get github.com/volleyhq/volley-go@v1.0.0
 ```
 
 ## Notes
 
 - Go modules automatically use the latest tagged version
-- Users can pin to a specific version: `go get github.com/volleyhooks/volley-go@v1.0.0`
-- Users can use the latest version: `go get github.com/volleyhooks/volley-go@latest`
+- Users can pin to a specific version: `go get github.com/volleyhq/volley-go@v1.0.0`
+- Users can use the latest version: `go get github.com/volleyhq/volley-go@latest`
 - The module path in `go.mod` must match the GitHub repository path
 

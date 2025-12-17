@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/volleyhooks/volley-go"
+	"github.com/volleyhq/volley-go"
 )
 
 // Integration tests require VOLLEY_API_TOKEN environment variable

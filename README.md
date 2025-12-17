@@ -17,7 +17,7 @@ Official Go SDK for the Volley API. This SDK provides a convenient way to intera
 ## Installation
 
 ```bash
-go get github.com/volleyhooks/volley-go
+go get github.com/volleyhq/volley-go
 ```
 
 ## Quick Start

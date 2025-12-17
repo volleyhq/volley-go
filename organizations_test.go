@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/volleyhooks/volley-go"
+	"github.com/volleyhq/volley-go"
 )
 
 func TestListOrganizations(t *testing.T) {

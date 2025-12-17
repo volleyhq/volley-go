@@ -1,3 +1,3 @@
-module github.com/volleyhooks/volley-go
+module github.com/volleyhq/volley-go
 
 go 1.21
