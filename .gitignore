@@ -17,6 +17,9 @@ vendor/
 # Go workspace file
 go.work
 
+# Example binary
+example/example
+
 # IDE
 .idea/
 .vscode/
